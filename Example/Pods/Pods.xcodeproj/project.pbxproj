@@ -10,9 +10,10 @@
 		15F207F8DBE0DAFE562E585B2D24B869 /* DrawLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A786D33E16A8E43A7228EE44EDCEE9 /* DrawLib-dummy.m */; };
 		41DCB2C98A320B1D51C7452E794C3D46 /* Pods-DrawLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F121DC2A968E937D00B89AEF2E6E1B8D /* Pods-DrawLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FDFDC5E81C381B0B0AE1C6386F7C86F /* Pods-DrawLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3023E24C0E6372550C13B7FA411DEBC /* Pods-DrawLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		642970E309A691CF374F5BF78525A0BC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C1D11B5BAAA20C4EA13766FBE3BC6F /* ReplaceMe.m */; };
 		6AA599EB22CCEA70B1E8C53AA81B887F /* Pods-DrawLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4D535E0C6A71D2FEB42519C442B676 /* Pods-DrawLib_Tests-dummy.m */; };
 		6F963FE6EA0D0D435EB055E0312ABC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A3473AE420FD9E1000255AE6 /* DrawLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A3473AE220FD9E1000255AE6 /* DrawLib.h */; };
+		A3473AE520FD9E1000255AE6 /* DrawLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A3473AE320FD9E1000255AE6 /* DrawLib.m */; };
 		B3A9317934ECC8E3BB71B37A9C265EBB /* DrawLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7443C80DEDE6F48B59E2DF13BC7386CE /* DrawLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B513E3C2D581DA180D2822B5C8EA767A /* Pods-DrawLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D561769090B1826F64815DE496593ED /* Pods-DrawLib_Example-dummy.m */; };
 		D042969782FED467D3EA972E23540A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -33,24 +34,25 @@
 		0117B03A390FDABEF1C8D97619F5628A /* Pods-DrawLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DrawLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		02A786D33E16A8E43A7228EE44EDCEE9 /* DrawLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DrawLib-dummy.m"; sourceTree = "<group>"; };
 		149E637E33840CE73B9C5F8B29DC5C75 /* Pods-DrawLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1967080552CBCF134B33EEEBC358C05E /* Pods-DrawLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DrawLib_Example.modulemap"; sourceTree = "<group>"; };
+		1967080552CBCF134B33EEEBC358C05E /* Pods-DrawLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DrawLib_Example.modulemap"; sourceTree = "<group>"; };
 		23F58D60F5B5CCB3549322EC6AFA783C /* Pods-DrawLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		466EC4B787C80DA05A6BF99F2AC6540B /* Pods_DrawLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DrawLib_Example.framework; path = "Pods-DrawLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50BB8014100F4A6567DF1E111D8A527E /* Pods_DrawLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DrawLib_Tests.framework; path = "Pods-DrawLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466EC4B787C80DA05A6BF99F2AC6540B /* Pods_DrawLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50BB8014100F4A6567DF1E111D8A527E /* Pods_DrawLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D561769090B1826F64815DE496593ED /* Pods-DrawLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DrawLib_Example-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		71C1D11B5BAAA20C4EA13766FBE3BC6F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DrawLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		7443C80DEDE6F48B59E2DF13BC7386CE /* DrawLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DrawLib-umbrella.h"; sourceTree = "<group>"; };
 		78B7CE773E7AF00BDA4CB3BC885EB7D6 /* Pods-DrawLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawLib_Example-resources.sh"; sourceTree = "<group>"; };
 		8258932B877364078A9E8850ED867CA1 /* Pods-DrawLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		874A0A9DB26BD5C4B40CA47A22D11E1E /* Pods-DrawLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DrawLib_Tests.modulemap"; sourceTree = "<group>"; };
+		874A0A9DB26BD5C4B40CA47A22D11E1E /* Pods-DrawLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DrawLib_Tests.modulemap"; sourceTree = "<group>"; };
 		909D0F2D2405FA24FF508F4DB76B9D52 /* Pods-DrawLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DrawLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3473AE220FD9E1000255AE6 /* DrawLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DrawLib.h; path = DrawLib/Classes/DrawLib.h; sourceTree = "<group>"; };
+		A3473AE320FD9E1000255AE6 /* DrawLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DrawLib.m; path = DrawLib/Classes/DrawLib.m; sourceTree = "<group>"; };
 		AF4A1DD44970CF47D95C7FFD0B07E254 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A162802664CD2248B37EA07A4BBABC /* DrawLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DrawLib.xcconfig; sourceTree = "<group>"; };
 		BCD7191D82C4B91A5749054CA9DFAF0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C070142A03744C88749F5A07D7463469 /* Pods-DrawLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C3DD766FFFCC574A79814953C22BA69A /* DrawLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DrawLib.framework; path = DrawLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DD766FFFCC574A79814953C22BA69A /* DrawLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D52A9EEAB137FEA63CAAE362004039 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB1006436F7A0E1D9A518A092DD16767 /* Pods-DrawLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC917FE59C64BC5CED5D5F0547878F3 /* Pods-DrawLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DrawLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		DBE53E62E0BA90E992FF2E7F1CD263FD /* DrawLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DrawLib-prefix.pch"; sourceTree = "<group>"; };
 		DE1B8B0CC65BF165356A11CC85FF1E66 /* Pods-DrawLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E07986DAF1577D89341BB1FBECD8E3E5 /* Pods-DrawLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DrawLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E68F514F21BB0C71B119B8638CC5A418 /* DrawLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DrawLib.modulemap; sourceTree = "<group>"; };
+		E68F514F21BB0C71B119B8638CC5A418 /* DrawLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DrawLib.modulemap; sourceTree = "<group>"; };
 		F121DC2A968E937D00B89AEF2E6E1B8D /* Pods-DrawLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DrawLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		F5B172195B18635A29811FCEA0C612BB /* Pods-DrawLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DrawLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,8 +201,9 @@
 		ED02EA426EB197EC5940742B17E701E1 /* DrawLib */ = {
 			isa = PBXGroup;
 			children = (
-				71C1D11B5BAAA20C4EA13766FBE3BC6F /* ReplaceMe.m */,
 				9435D4A5E7D41FCAD39FB7E92469600A /* Support Files */,
+				A3473AE220FD9E1000255AE6 /* DrawLib.h */,
+				A3473AE320FD9E1000255AE6 /* DrawLib.m */,
 			);
 			name = DrawLib;
 			path = ../..;
@@ -213,6 +216,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3473AE420FD9E1000255AE6 /* DrawLib.h in Headers */,
 				B3A9317934ECC8E3BB71B37A9C265EBB /* DrawLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,7 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15F207F8DBE0DAFE562E585B2D24B869 /* DrawLib-dummy.m in Sources */,
-				642970E309A691CF374F5BF78525A0BC /* ReplaceMe.m in Sources */,
+				A3473AE520FD9E1000255AE6 /* DrawLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
