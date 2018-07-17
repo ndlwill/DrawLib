@@ -14,6 +14,8 @@
 		6F963FE6EA0D0D435EB055E0312ABC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A3473AE420FD9E1000255AE6 /* DrawLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A3473AE220FD9E1000255AE6 /* DrawLib.h */; };
 		A3473AE520FD9E1000255AE6 /* DrawLib.m in Sources */ = {isa = PBXBuildFile; fileRef = A3473AE320FD9E1000255AE6 /* DrawLib.m */; };
+		A3473AE820FDC33600255AE6 /* DrawNew.h in Headers */ = {isa = PBXBuildFile; fileRef = A3473AE620FDC33600255AE6 /* DrawNew.h */; };
+		A3473AE920FDC33600255AE6 /* DrawNew.m in Sources */ = {isa = PBXBuildFile; fileRef = A3473AE720FDC33600255AE6 /* DrawNew.m */; };
 		B3A9317934ECC8E3BB71B37A9C265EBB /* DrawLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7443C80DEDE6F48B59E2DF13BC7386CE /* DrawLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B513E3C2D581DA180D2822B5C8EA767A /* Pods-DrawLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D561769090B1826F64815DE496593ED /* Pods-DrawLib_Example-dummy.m */; };
 		D042969782FED467D3EA972E23540A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -48,6 +50,8 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3473AE220FD9E1000255AE6 /* DrawLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DrawLib.h; path = DrawLib/Classes/DrawLib.h; sourceTree = "<group>"; };
 		A3473AE320FD9E1000255AE6 /* DrawLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DrawLib.m; path = DrawLib/Classes/DrawLib.m; sourceTree = "<group>"; };
+		A3473AE620FDC33600255AE6 /* DrawNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DrawNew.h; path = DrawLib/Classes/DrawNew.h; sourceTree = "<group>"; };
+		A3473AE720FDC33600255AE6 /* DrawNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DrawNew.m; path = DrawLib/Classes/DrawNew.m; sourceTree = "<group>"; };
 		AF4A1DD44970CF47D95C7FFD0B07E254 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A162802664CD2248B37EA07A4BBABC /* DrawLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DrawLib.xcconfig; sourceTree = "<group>"; };
 		BCD7191D82C4B91A5749054CA9DFAF0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 				9435D4A5E7D41FCAD39FB7E92469600A /* Support Files */,
 				A3473AE220FD9E1000255AE6 /* DrawLib.h */,
 				A3473AE320FD9E1000255AE6 /* DrawLib.m */,
+				A3473AE620FDC33600255AE6 /* DrawNew.h */,
+				A3473AE720FDC33600255AE6 /* DrawNew.m */,
 			);
 			name = DrawLib;
 			path = ../..;
@@ -218,6 +224,7 @@
 			files = (
 				A3473AE420FD9E1000255AE6 /* DrawLib.h in Headers */,
 				B3A9317934ECC8E3BB71B37A9C265EBB /* DrawLib-umbrella.h in Headers */,
+				A3473AE820FDC33600255AE6 /* DrawNew.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +334,7 @@
 			files = (
 				15F207F8DBE0DAFE562E585B2D24B869 /* DrawLib-dummy.m in Sources */,
 				A3473AE520FD9E1000255AE6 /* DrawLib.m in Sources */,
+				A3473AE920FDC33600255AE6 /* DrawNew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
