@@ -1,0 +1,16 @@
+PODS:
+  - DrawLib (0.1.0)
+
+DEPENDENCIES:
+  - DrawLib (from `../`)
+
+EXTERNAL SOURCES:
+  DrawLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DrawLib: c670bf5068cd4d6907bf45203636df441be14f66
+
+PODFILE CHECKSUM: 087191ffed2abdfabb844518b263bb7f0e3cdd03
+
+COCOAPODS: 1.3.1
