@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DrawLib_Example' do
+  pod 'DrawLib', :path => '../'
+
+  target 'DrawLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
